@@ -8,6 +8,11 @@
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
 
+  @* @Html.LabelFor(model => model.Stylist)
+  @Html.DropDownList("StylistId") *@
+
+  @Html.DisplayNameFor(model => model.Age): @Html.DisplayFor(model => model.Age)
+
 
 <p>@Html.ActionLink("Back to Clients", "Index", null, null , new {@class="myCssClass"})</p>
 

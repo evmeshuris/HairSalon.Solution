@@ -1,0 +1,13 @@
+@{
+  Layout = "_Layout";
+}
+
+@model List<HairSalon.Models.Client>
+
+<ul>
+  @foreach (var client in Model) {
+      <li>@client.Name</li>
+  }
+</ul>
+
+<p>@Html.ActionLink("show", "Clients", null, null , new {@class="myCssClass"})</p>

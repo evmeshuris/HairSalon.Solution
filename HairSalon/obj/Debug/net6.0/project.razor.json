@@ -16343,6 +16343,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/Views/Stylists/Clients.cshtml",
+      "TargetPath": "Views\\Stylists\\Clients.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/Views/Stylists/Index.cshtml",
       "TargetPath": "Views\\Stylists\\Index.cshtml",
       "FileKind": "mvc"
