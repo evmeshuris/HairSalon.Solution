@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "5Hyuf4yD0bgtCF/xCGNyWZm8JAsXEsWvKNM/oUExQAI=",
+  "Source": "HairSalon",
+  "BasePath": "_content/HairSalon",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HairSalon/wwwroot",
+      "Source": "HairSalon",
+      "ContentRoot": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/wwwroot/",
+      "BasePath": "_content/HairSalon",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/wwwroot/css/styles.css",
+      "SourceId": "HairSalon",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/wwwroot/",
+      "BasePath": "_content/HairSalon",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ]
+}
