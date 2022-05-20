@@ -4,33 +4,21 @@
 
 @model HairSalon.Models.Client
 
-<h2>Edit client</h2>
+<h2>Edit a client</h2>
 
-<h4>Edit this client: @Html.DisplayFor(model => model.Name)</h4>
+<h4>Edit client's personal information: @Html.DisplayFor(model => model.Name)</h4>
 
 @using (Html.BeginForm())
 {
+  @Html.LabelFor(model => model.Stylist)
+  @Html.DropDownList("StylistId")
+
   @Html.HiddenFor(model => model.ClientId)
 
   @Html.LabelFor(model => model.Name)
   @Html.EditorFor(model => model.Name)
 
-  @* @Html.LabelFor(model => model.Genger)
-  @Html.TextBoxFor(model => model.Genger)
-
-  @Html.LabelFor(model => model.PhoneNumber)
-  @Html.TextBoxFor(model => model.PhoneNumber)
-
-  @Html.LabelFor(model => model.Email)
-  @Html.TextBoxFor(model => model.Email)
-
-  @Html.LabelFor(model => model.Age)
-  @Html.TextBoxFor(model => model.Age) *@
-
-  @Html.LabelFor(model => model.Stylist)
-  @Html.DropDownList("StylistId")
-
-  <input type="submit" value="Save" />
+  <input class="myCssClass" type="submit" value="Save" />
 }
 
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<p>@Html.ActionLink("Back to Clients", "Index", null, null, new {@class="myCssClass"})</p>
