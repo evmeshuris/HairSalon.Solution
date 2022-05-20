@@ -20,7 +20,9 @@ namespace HairSalon.Controllers
         {
             List<Client> model = _db.Clients.Include(client => client.Stylist).ToList();
             ViewBag.PageTitle = "View All Clients";
-            return View(model);
+            // return View(model);
+            List<Client> clientByName = model.OrderBy(clients => clients.Name).ToList();
+            return View(clientByName);
         }
 
         public ActionResult Create()
