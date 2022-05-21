@@ -4,10 +4,11 @@
 
 @model List<HairSalon.Models.Client>
 
+<h2>Here are your clients</h2>
 <ul>
   @foreach (var client in Model) {
       <li>@client.Name</li>
   }
 </ul>
 
-<p>@Html.ActionLink("show", "Clients", null, null , new {@class="myCssClass"})</p>
+@* <p>@Html.ActionLink("Back to Stylists", "Index", null, null , new {@class="myCssClass"})</p> *@

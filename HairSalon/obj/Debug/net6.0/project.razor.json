@@ -16313,6 +16313,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/Views/Stylists/ClientsShow.cshtml",
+      "TargetPath": "Views\\Stylists\\ClientsShow.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16340,11 +16345,6 @@
     {
       "FilePath": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/evgeniya/Desktop/epicodus/week10/HairSalon.Solution/HairSalon/Views/Stylists/Clients.cshtml",
-      "TargetPath": "Views\\Stylists\\Clients.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -69,7 +69,7 @@ namespace HairSalon.Controllers
     }
 
     [HttpGet]
-    public ActionResult Clients(int id)
+    public ActionResult ClientsShow(int id)
     {
       return View(_db.Clients.Where(s => s.StylistId == id).ToList());
     }
