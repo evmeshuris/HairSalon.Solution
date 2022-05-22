@@ -1,4 +1,4 @@
-@{
+﻿@{
   Layout = "_Layout";
 }
 
@@ -12,4 +12,4 @@
 <p>@Html.ActionLink("Back to Stylists", "Index", null, null , new {@class="myCssClass"})</p>
 <p>@Html.ActionLink("Edit stylist", "Edit",  new { id = Model.StylistId }, new {@class="myCssClass"})</p>
 <p>@Html.ActionLink("Delete Stylist", "Delete",  new { id = Model.StylistId }, new {@class="myCssClass"})</p>
-<p>@Html.ActionLink("Show", "ClientsShow", null, null , new {@class="myCssClass"})</p>
+<p>@Html.ActionLink("Show", "ClientsShow", null, new { id = Model.StylistId }, new {@class="myCssClass"})</p>
