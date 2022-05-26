@@ -27,8 +27,9 @@ CREATE TABLE `Clients` (
   `StylistId` int DEFAULT '0',
   `Name` varchar(255) DEFAULT NULL,
   `Age` int DEFAULT NULL,
+  `PhoneNumber` int DEFAULT NULL,
   PRIMARY KEY (`ClientId`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +38,7 @@ CREATE TABLE `Clients` (
 
 LOCK TABLES `Clients` WRITE;
 /*!40000 ALTER TABLE `Clients` DISABLE KEYS */;
-INSERT INTO `Clients` VALUES (1,3,'Jack',NULL),(2,3,'Jack Jaask',NULL),(3,2,'Todo',NULL),(4,2,'Ash',NULL),(5,2,'Wally',NULL),(6,2,'Jack',NULL),(7,0,'Jack',NULL),(14,6,'Ev',NULL),(15,6,'Edward Meshuris',NULL),(16,6,'Jack Jaask',NULL),(17,6,'Jack Jaask',9),(18,6,'Todo',9);
+INSERT INTO `Clients` VALUES (1,12,'Jack',5,206456789),(2,3,'Jack Jaask',NULL,NULL),(3,2,'Todo',NULL,NULL),(4,2,'Ash',NULL,NULL),(5,2,'Wally',NULL,NULL),(6,2,'Jack',NULL,NULL),(7,0,'Jack',NULL,NULL),(14,6,'Ev',NULL,NULL),(15,6,'Edward Meshuris',NULL,NULL),(16,12,'Jack Jaask',NULL,NULL),(17,6,'Jack Jaask',9,NULL),(18,6,'Todo',9,NULL),(19,7,'Edward',40,1234567891),(21,7,'Client3',40,2064567456),(22,0,'Jack',9,NULL),(23,0,'sd',1,NULL),(24,13,'Edward',41,2064565826),(25,13,'Evgeniya',38,2064567888),(26,13,'Daniel',9,123456789),(27,14,'Gizmo',1,2064567888);
 /*!40000 ALTER TABLE `Clients` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -52,7 +53,7 @@ CREATE TABLE `Stylists` (
   `StylistId` int NOT NULL AUTO_INCREMENT,
   `Name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`StylistId`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -61,7 +62,7 @@ CREATE TABLE `Stylists` (
 
 LOCK TABLES `Stylists` WRITE;
 /*!40000 ALTER TABLE `Stylists` DISABLE KEYS */;
-INSERT INTO `Stylists` VALUES (6,'Tomas R'),(7,'Kelly');
+INSERT INTO `Stylists` VALUES (13,'Jane Smith'),(14,'John Smith');
 /*!40000 ALTER TABLE `Stylists` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -74,4 +75,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-20 16:59:48
+-- Dump completed on 2022-05-22 12:52:28
